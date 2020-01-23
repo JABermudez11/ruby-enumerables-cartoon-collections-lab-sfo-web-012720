@@ -10,6 +10,7 @@ end
 
 def summon_captain_planet(planeteer)
   summon = planeteer.map{ |string| string.capitalize() + "!"}
+  puts summon
 end
 
 def long_planeteer_calls# code an argument here
