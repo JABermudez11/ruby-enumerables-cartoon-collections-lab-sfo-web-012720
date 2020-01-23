@@ -14,10 +14,10 @@ def summon_captain_planet(planeteer)
 end
 
 def long_planeteer_calls(array)
-  bool = true
+  bool = false
   array.each do |call|
     if call.length > 4
-      bool = false
+      bool = true
     end
   end
   bool
